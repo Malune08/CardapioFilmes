@@ -1,0 +1,277 @@
+body{
+    top: 0;
+    bottom: 0;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    color: white;
+    Font-family: arial; 
+}
+
+
+#paginaInicial{    
+    height: 100px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    top: 0;
+    width: 100%; 
+    position: fixed;
+
+}   
+
+#logotipo{
+    margin-top: -50px;
+}
+#coisinhas{
+    display: flex;
+    gap: 50px;
+    margin-top: 20px;
+    margin-left: 1200px;
+    position: relative;
+
+}
+
+table{
+    color: white;
+    background-color: rgb(16, 16, 16);
+    width: 600px;
+    border-spacing: 20px;
+    text-align: center;
+    border-radius: 20px;
+
+}
+
+#maisVistos{
+    margin-top: 120px;
+}
+
+#Recomendados{
+    margin-bottom: 60px;
+}
+
+.data_lancamento{
+    color: rgb(196, 196, 196);
+}
+
+
+button{
+    background-color: rgb(28,28,28);
+    border-radius: 5px;
+    padding: 8px;
+}
+
+
+a{
+    color: white;
+}
+
+
+button:hover{
+    background-color: rgb(250, 0, 0);
+    padding: 5px;
+    transform: scale(1.1);    
+    transition: 0.2s;
+    border-radius: 5px;
+}
+
+
+.AVATAR:hover{
+    background-color: rgb(28, 28, 28);
+    padding: 300px 15px 150px 15px;
+    transform: scale(1.1);    
+    transition: 0.2s;
+    border-radius: 5px;
+}
+
+.ARISU:hover{
+    background-color: rgb(28, 28, 28);
+    padding: 300px 15px 150px 15px;
+    transform: scale(1.1);    
+    transition: 0.2s;
+    border-radius: 5px;
+}
+
+.BicoDoce:hover{
+    background-color: rgb(28, 28, 28);
+    padding: 300px 15px 150px 15px;
+    transform: scale(1.1);    
+    transition: 0.2s;
+    border-radius: 5px;
+}
+.HOME:hover{
+    background-color: rgb(28, 28, 28);
+    padding: 300px 15px 150px 15px;
+    transform: scale(1.1);    
+    transition: 0.2s;
+    border-radius: 5px;
+}
+
+.REGINA:hover{
+    background-color: rgb(28, 28, 28);
+    padding: 300px 15px 150px 15px;
+    transform: scale(1.1);    
+    transition: 0.2s;
+    border-radius: 5px;
+}
+
+.Zootopia:hover{
+    background-color: rgb(28, 28, 28);
+    padding: 300px 15px 150px 15px;
+    transform: scale(1.1);    
+    transition: 0.2s;
+    border-radius: 5px;
+}
+
+.AVATAR2:hover{
+    background-color: rgb(28, 28, 28);
+    padding: 300px 15px 180px 15px;
+    transform: scale(1.1);    
+    transition: 0.2s;
+    border-radius: 5px;
+}
+
+.SININHO:hover{
+    background-color: rgb(28, 28, 28);
+    padding: 300px 15px 180px 15px;
+    transform: scale(1.1);    
+    transition: 0.2s;
+    border-radius: 5px;
+}
+.MIRANHA:hover{
+    background-color: rgb(28, 28, 28);
+    padding: 300px 15px 180px 15px;
+    transform: scale(1.1);    
+    transition: 0.2s;
+    border-radius: 5px;
+}
+
+
+.B99:hover{
+    background-color: rgb(28, 28, 28);
+    padding: 300px 15px 180px 15px;
+    transform: scale(1.1);    
+    transition: 0.2s;
+    border-radius: 5px;
+}
+
+.PONYY:hover{
+    background-color: rgb(28, 28, 28);
+    padding: 300px 15px 180px 15px;
+    transform: scale(1.1);    
+    transition: 0.2s;
+    border-radius: 5px;
+}
+
+.SING:hover{
+    background-color: rgb(28, 28, 28);
+    padding: 300px 15px 180px 15px;
+    transform: scale(1.1);    
+    transition: 0.2s;
+    border-radius: 5px;
+}
+
+
+
+#favoritados{
+    border-spacing: 30px;
+}
+
+.headerFav{
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    top: -25px;
+    
+}
+
+#headerPerfil{
+    margin-top: -20px;
+}
+#nomePerfil{
+    background-color: gray;
+    width: 300px;
+    height: 20px;
+    border-radius: 15px;
+}   
+#senha{
+    background-color: gray;
+    width: 300px;
+    height: 20px;
+    border-radius: 15px;
+}
+#email{
+    background-color: gray;
+    width: 300px;
+    height: 20px;
+    border-radius: 15px;
+}
+
+
+#foto{
+    margin-left: 80px;
+}
+
+#principal{
+    display: flex;
+    justify-content: center;
+}
+
+
+.fotoEInfo{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.sinopse{
+    margin-left: 10px;
+    margin-top: 50px;
+    display: block;
+    justify-content: center;
+}
+
+.atores{
+    color: rgb(92, 92, 210);
+}
+
+.fotoEInfo2{
+    margin-left: 21%;
+    margin-top: 50px;
+    display: flex;
+    gap: 50px;
+}
+.infosImportanteAB{
+    margin-top: -30px;
+}
+.infosImportanteAva2{
+    margin-top: -35px;
+   
+}
+.infosImportante20{
+    margin-top: -35px;
+    margin-left: -25px;
+}
+
+.headerReview{
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    
+}
+.ReviewInfo{
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+}
+
+footer{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 148, 162);
+    bottom: 0;
+    width: 100%; 
+    position: fixed;
+    text-align: center;
+}
+
