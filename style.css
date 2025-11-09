@@ -8,29 +8,26 @@ body{
     Font-family: arial; 
 }
 
-
-#paginaInicial{    
-    height: 100px;
-    color: white;
+#HeaderpaginaInicial{  
+    display: flex;
+    justify-content: center;
     background-color: rgb(0, 0, 0);
-    text-align: center;
-    top: 0;
-    width: 100%; 
-    position: fixed;
+    height: 100px;
+    gap: 190px;
 
-}   
+}
 
 #logotipo{
-    margin-top: -50px;
+    margin-left: 470px;
+    margin-top: 10px;
 }
 #coisinhas{
     display: flex;
-    gap: 50px;
+    gap: 15px;
     margin-top: 20px;
-    margin-left: 1200px;
-    position: relative;
-
-}
+    margin-right: 100px;
+    
+} 
 
 table{
     color: white;
@@ -171,8 +168,6 @@ button:hover{
     border-radius: 5px;
 }
 
-
-
 #favoritados{
     border-spacing: 30px;
 }
@@ -207,7 +202,6 @@ button:hover{
     border-radius: 15px;
 }
 
-
 #foto{
     margin-left: 80px;
 }
@@ -217,17 +211,29 @@ button:hover{
     justify-content: center;
 }
 
+.headerSinopse{
+    margin-top: 10px;
+}
+
+#fotoEInfoOUAT{
+    margin-top: 20px;
+    display: flex;
+    gap: 50px;
+    margin-left: 320px;
+}
 
 .fotoEInfo{
     margin-top: 50px;
     display: flex;
     justify-content: center;
+    margin-left: 200px;
     gap: 50px;
 }
 
+
 .sinopse{
     margin-left: 10px;
-    margin-top: 50px;
+    margin-top: 30px;
     display: block;
     justify-content: center;
 }
@@ -236,23 +242,40 @@ button:hover{
     color: rgb(92, 92, 210);
 }
 
-.fotoEInfo2{
-    margin-left: 21%;
+.fotoEInfoOUAT{
+    margin-left: 350px;
     margin-top: 50px;
     display: flex;
     gap: 50px;
 }
+
+.fotozinha{
+    margin-top: 30px;
+}   
+
 .infosImportanteAB{
     margin-top: -30px;
 }
+
 .infosImportanteAva2{
     margin-top: -35px;
    
 }
-.infosImportante20{
-    margin-top: -35px;
-    margin-left: -25px;
+
+.infosImportante{
+    margin-top: -25px;
+    margin-left: -20px;
 }
+
+#fotoeinfoZootopia{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+    margin-left: 280px;
+}
+
+
 
 .headerReview{
     background-color: black;
