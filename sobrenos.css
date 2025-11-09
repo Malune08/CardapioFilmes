@@ -8,6 +8,17 @@ body {
     font-weight: lighter;
 }
 
+header{
+    background-color: black;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    z-index: 10;
+}
+header img{
+    margin-top: 6px;
+}
 .divisao {
     margin-top: 5%;
 }
@@ -30,48 +41,51 @@ body {
     position: absolute;
     right: 0px;
     top: 175%;
+    z-index: -10;
 }
 
 #florespt4 {
     position: absolute;
     bottom: -240%;
     left: -25px;
+    z-index: -10;
 }
 
 #florespt5 {
     position: absolute;
     right: 0.1px;
     top: 230%;
-
+    z-index: -10;
 }
 
 #sobremim {
     color: white;
     font-size: 64px;
     text-align: center;
-    margin-top: 0.7%;
+    margin-top: 50px;
 
 }
 
 #BlocoApresentacao {
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: -1%;
+    margin-top: 10px;
 }
 
 #me {
     position: absolute;
     right: 55.9%;
-    top: 6.9%;
+    margin-top: -98px;
 }
 
 #nome {
     position: absolute;
     color: #C8BC46;
     font-size: 45px;
-    top: 18%;
-    left: 49%;
+    top: -25px;
+    left: 700px;
 }
 
 #textoMe {
@@ -79,24 +93,24 @@ body {
     color: white;
     font-size: 13px;
     text-align: end;
-    top: 35%;
-    right: 27%;
+    top: 80px;
+    right: 370px;
 }
 
 #textoCuriosidade {
     color: #FF8793;
     font-size: 28px;
     position: absolute;
-    top: 70%;
-    right: 28%;
+    top: 500px;
+    right: 390px;
 }
 
 #listacurious {
     color: white;
     font-size: 12px;
     position: absolute;
-    top: 81.5%;
-    right: 25.5%;
+    top: 570px;
+    right: 360px;
 }
 
 
@@ -105,23 +119,23 @@ body {
     position: absolute;
     border: solid, 2px, #C8BC46;
     border-radius: 30px;
-    top: 75%;
-    right: 43.8%;
+    top: 527px;
+    right: 610px;
 }
 
 
 #eueHelena {
     position: absolute;
-    top: 89.6%;
-    right: 43.8%;
+    top: 622px;
+    right: 610px;
     border: solid, 2px #FF8793;
     border-radius: 30px;
 }
 
 #insta {
     position: absolute;
-    top: 72.8%;
-    left: 22.7%;
+    top: 515px;
+    left: 310px;
 
 }
 
@@ -130,7 +144,7 @@ body {
     background-color: white;
     border-radius: 50px;
     width: 1000px;
-    height: 590px;
+    height: 560px;
     z-index: 10;
     margin: 0 auto;
     margin-top: 5%;
@@ -141,14 +155,14 @@ body {
     display: flex;
     justify-content: center;
     gap: 30px;
-    margin-top: 35px;
+    margin-top: 5px;
 }
 
 
 #BlocoLugaresQueConheci h1{
     font-size: 48px;
     color: #C8BC46;
-    padding-top: 60px;
+    padding-top: 30px;
     text-align: center;
     
 }
@@ -195,7 +209,7 @@ body {
     background-color: white;
     border-radius: 50px;
     width: 1000px;
-    height: 590px;
+    height: 560px;
     gap: 25px;
     z-index: 10;
     margin: 0 auto;
@@ -206,7 +220,7 @@ body {
 #LugaresQQueroConhecer h1{
     font-size: 48px;
     color: #FF8793;
-    padding-top: 60px;
+    padding-top: 30px;
     text-align: center;
 }
 
