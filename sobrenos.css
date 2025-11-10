@@ -102,16 +102,16 @@ header img{
     color: #FF8793;
     font-size: 28px;
     position: absolute;
-    top: 79%;
-    right: 28%;
+    top: 72%;
+    right: 30%;
 }
 
 #listacurious {
     color: white;
     font-size: 12px;
     position: absolute;
-    top: 90%;
-    right: 26%;
+    top: 82.7%;
+    right: 27.9%;
 }
 
 
@@ -120,23 +120,23 @@ header img{
     position: absolute;
     border: solid, 2px, #C8BC46;
     border-radius: 30px;
-    top: 83.4%;
-    right: 44%;
+    top: 76%;
+    right: 44.5%;
 }
 
 
 #eueHelena {
     position: absolute;
-    top: 98.7%;
-    right: 44%;
+    top: 89.6%;
+    right: 44.5%;
     border: solid, 2px #FF8793;
     border-radius: 30px;
 }
 
 #insta {
     position: absolute;
-    top: 81.4%;
-    left: 22.8%;
+    top: 74.5%;
+    left: 24.9%;
 
 }
 
